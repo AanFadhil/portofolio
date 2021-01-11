@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Layout from '../hoc/layout';
+import Layout from '../hoc/layout2';
 import styles from './index.module.css';
 const Home = () => {
 
@@ -18,6 +18,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section></section>
     </Layout>
   )
 }
