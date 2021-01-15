@@ -12,13 +12,13 @@ const menu = [
 const Layout = ({ children }) => {
     const router = useRouter()
     return (
-        <div className="bg-blue-50 min-h-screen relative">
+        <div className="bg-indigo-100 min-h-screen relative">
             <Head>
                 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
                 <link rel="icon" href="/favicon.ico" />
                 <title>Aan Fadhil</title>
             </Head>
-            <header>
+            <header className="mb-10">
                 <nav>
                     <ul className="flex flex-row place-content-center gap-x-4 pt-6 font-semibold text-gray-500">
                         {
@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
                 </nav>
             </header>
 
-            <main className="">
+            <main className="pb-12">
                 {children}
             </main>
 
