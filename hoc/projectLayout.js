@@ -21,7 +21,7 @@ const Layout = ({ children, title }) => {
                     </div>
                     <div className="px-4">
                         <h3 className="font-semibold text-lg text-black">Aan Fadhil</h3>
-                        <p>Interested to work with me ?</p>
+                        <p className="italic">Interested to work with me ?</p>
                         <div className="bg-purple-700 w-44 text-sm text-center text-white mt-2 py-0 font-semibold hover:bg-purple-800 transition hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 ease-out duration-300 rounded-md"><a href="#">Hire me on Upwork</a></div>
                     </div>
                     
