@@ -17,7 +17,11 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section></section>
+      <section className="mx-60 text-center mt-12 text-purple-800">
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar nisl eget mauris suscipit, eu cursus ligula fringilla. Morbi feugiat commodo tortor at vestibulum. Aenean tempor nec mi a bibendum
+        </p>
+      </section>
     </Layout>
   )
 }
