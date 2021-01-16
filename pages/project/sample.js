@@ -1,26 +1,9 @@
 import Head from 'next/head'
 import Layout from '../../hoc/layout2'
 import ProjectLayout from '../../hoc/projectLayout'
-
-const Sub = ({children}) => {
-    return(
-        <h2 className="font-bold text-gray-800 text-xl mb-2">{children}</h2>
-    )
-}
-
-const P = ({children}) => {
-    return(
-        <p className="mb-4">{children}</p>
-    )
-}
-
-const Stack = ({children}) => {
-    return (
-        <span className="bg-gray-200 px-2 rounded-lg text-xs leading-5 font-medium text-gray-700 text-center">
-            {children}
-        </span>
-    )
-}
+import P from '../../components/paragraph'
+import Sub from '../../components/subTitle'
+import Stack from '../../components/stack'
 
 const Sample = () => {
     return (
