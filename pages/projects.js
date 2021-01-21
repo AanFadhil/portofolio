@@ -10,14 +10,14 @@ const Projets = () => {
       <Head>
         <title>Projects - Aan Fadhil</title>
       </Head>
-      <section className="grid grid-cols-3 px-16 gap-x-6 gap-y-6">
+      <section className="grid grid-cols-1 md:grid-cols-3 px-4 md:px-16 gap-x-6 gap-y-2 md:gap-y-6">
         {
           [1, 2, 3, 4, 5].map(item => (
             <div className="p-2" key={item}>
               <Link href="/project/sample">
                 <a>
                   <Card className="shadow-lg transition duration-300 transform hover:-translate-y-1 hover:scale-105 ease-out hover:shadow-xl cursor-pointer">
-                    <img src={"https://picsum.photos/300?random=" + item} className="object-cover w-full h-60 rounded-t-md object-center" />
+                    <img src={"https://picsum.photos/300?random=" + item} className="object-cover w-full h-52 md:h-60 rounded-t-md object-center" />
                     <div className="px-4 py-2">
                       <h2 className="font-bold text-lg">Project Name</h2>
                       <h3 className="text-gray-600">Project Location, 2015-2020</h3>

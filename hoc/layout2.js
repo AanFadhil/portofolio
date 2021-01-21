@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
                 <link rel="icon" href="/favicon.ico" />
                 <title>Aan Fadhil</title>
             </Head>
-            <header className="mb-10">
+            <header className="mb-4 md:mb-10">
                 <nav>
                     <ul className="flex flex-row place-content-center gap-x-4 pt-6 font-semibold text-gray-500">
                         {

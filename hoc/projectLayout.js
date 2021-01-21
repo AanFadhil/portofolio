@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 const Layout = ({ children, title }) => {
-    const padding = "md:px-80 sm:px-10"
+    const padding = "px-4 md:px-80"
     return (
         <div className="">
             <Head>
@@ -16,8 +16,8 @@ const Layout = ({ children, title }) => {
             </section>
             <section className={["py-4 text-gray-600", padding].join(' ')}>
                 <div className="flex flex-row bg-white px-4 py-4 rounded-lg shadow-md">
-                    <div className="rounded-full h-24 w-24 bg-gray-200">
-                        <img src="/potrait.png" className="rounded-full h-24 w-24"/>
+                    <div className="rounded-full h-16 w-h-16 md:h-24 md:w-24 bg-gray-200">
+                        <img src="/potrait.png" className="rounded-full h-16 w-h-16 md:h-24 md:w-24 object-contain object-bottom"/>
                     </div>
                     <div className="px-4">
                         <h3 className="font-semibold text-lg text-black">Aan Fadhil</h3>
