@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
             </main>
 
             <footer className="absolute w-screen bottom-0 text-center text-gray-500 text-sm p-1">
-                built with NextJs
+                ©2021 built with NextJs
             </footer>
         </div>
     )

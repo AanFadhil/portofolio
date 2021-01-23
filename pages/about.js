@@ -15,9 +15,6 @@ const Ul = ({ children }) => {
 const About = ({ }) => {
     return (
         <Layout>
-            <Head>
-                <title>About - Aan Fadhil</title>
-            </Head>
             <ProjectLayout title="About">
                 <Sub>What I do ?</Sub>
                 <P>

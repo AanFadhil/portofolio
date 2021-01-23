@@ -17,14 +17,16 @@ const Layout = ({ children, title }) => {
             <section className={["py-4 text-gray-600", padding].join(' ')}>
                 <div className="flex flex-row bg-white px-4 py-4 rounded-lg shadow-md">
                     <div className="rounded-full h-16 w-h-16 md:h-24 md:w-24 bg-gray-200">
-                        <img src="/potrait.png" className="rounded-full h-16 w-h-16 md:h-24 md:w-24 object-contain object-bottom"/>
+                        <img src="/potrait.png" className="rounded-full h-16 w-h-16 md:h-24 md:w-24 object-contain object-bottom" />
                     </div>
                     <div className="px-4">
                         <h3 className="font-semibold text-lg text-black">Aan Fadhil</h3>
                         <p className="italic">Interested to work with me ?</p>
-                        <div className="bg-purple-700 w-44 text-sm text-center text-white mt-2 py-0 font-semibold hover:bg-purple-800 transition hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 ease-out duration-300 rounded-md"><a href="#">Hire me on Upwork</a></div>
+                        <div className="bg-purple-700 w-44 text-sm text-center text-white mt-2 py-0 font-semibold hover:bg-purple-800 transition shadow-md hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 ease-out duration-300 rounded-md">
+                            <a href="https://www.upwork.com/freelancers/~0180f6fc8fef16432d">Hire me on Upwork</a>
+                        </div>
                     </div>
-                    
+
                 </div>
             </section>
         </div>
