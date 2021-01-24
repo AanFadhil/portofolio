@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import P from '../components/paragraph'
 import Sub from '../components/subTitle'
 import Layout from '../hoc/layout2'
@@ -16,13 +17,15 @@ const About = ({ }) => {
     return (
         <Layout>
             <ProjectLayout title="About">
-                <Sub>What I do ?</Sub>
-                <P>
-                    As a full stack programmer, I was involved in almost every stage of the software development, from defining business specifications, software requirements, scrum planning, server setup for deployment and continues integration, product design and the implementation which includes coding and testing.
-                </P>
-                <P>
-                    If you think we can work together on your project, although it’s still just an Idea. Please, don’t hesitate to contact me.
-                </P>
+                <Sub level={3}>Exprerience</Sub>
+                
+                    <P>Will and Able to learn the business</P>
+                    <P>Worked in almost every stage of the software development cycle</P>
+                    <P>Dealt with many tech stack and integration requirement</P>
+                    <P>Experienced in building the code base to be flexible to the use case and the software environment</P>
+                    <P>Passionate to do the research needed for the project</P>
+                    <P>I believe that process is as important as result. because in software development we often needed to revisit our previous work to optimize, debug or even enhance. if the software we build ignored the best practice and readability on the process of development, it will be an obstacle for the next development phase</P>
+                    
                 <Sub>My Stacks</Sub>
                 <div className="grid grid-cols-2">
                     <div>
@@ -77,13 +80,6 @@ const About = ({ }) => {
                         </Ul>
                     </div>
                 </div>
-                <P>
-                    
-                </P>
-                <Sub>I Also Design and Develop Spreadsheet App</Sub>
-                <P>
-                    As a full stack programmer, I was involved in almost every stage of the software development, from defining business specifications, software requirements, scrum planning, server setup for deployment and continues integration, product design and the implementation which includes coding and testing.
-                </P>
             </ProjectLayout>
         </Layout>
     )

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 const Layout = ({ children, title }) => {
     const padding = "px-4 md:px-80"
@@ -22,9 +23,13 @@ const Layout = ({ children, title }) => {
                     <div className="px-4">
                         <h3 className="font-semibold text-lg text-black">Aan Fadhil</h3>
                         <p className="italic">Interested to work with me ?</p>
-                        <div className="bg-purple-700 w-44 text-sm text-center text-white mt-2 py-0 font-semibold hover:bg-purple-800 transition shadow-md hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 ease-out duration-300 rounded-md">
-                            <a href="https://www.upwork.com/freelancers/~0180f6fc8fef16432d">Hire me on Upwork</a>
+                        <div className="flex flex-row mt-2">
+                            <div className="bg-purple-700 w-44 text-sm text-center text-white py-0 font-semibold hover:bg-purple-800 transition shadow-md hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 ease-out duration-300 rounded-md">
+                                <a href="https://www.upwork.com/freelancers/~0180f6fc8fef16432d">Hire me on Upwork</a>
+                            </div>
+                            <div className="text-sm ml-2">or  <Link href="/contact">Contact me</Link></div>
                         </div>
+
                     </div>
 
                 </div>
