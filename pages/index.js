@@ -28,9 +28,9 @@ const Home = () => {
 
   return (
     <Layout>
-      <section className="px-1 md:px-0 block mt-0 md:mt-24 align-text-bottom relative" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
+      <div className="px-1 md:px-0 block mt-0 md:mt-24 align-text-bottom w-screen" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
         
-        <Shade rotation={10} active={isCardHovered} duration={500} shade={900} />
+        {/* <Shade rotation={10} active={isCardHovered} duration={500} shade={900} />
         <Shade rotation={9} active={isCardHovered} duration={450} shade={800} />
         <Shade rotation={8} active={isCardHovered} duration={400} shade={700} />
         <Shade rotation={7} active={isCardHovered} duration={350} shade={600} />
@@ -38,10 +38,10 @@ const Home = () => {
         <Shade rotation={5} active={isCardHovered} duration={250} shade={400} />
         <Shade rotation={4} active={isCardHovered} duration={200} shade={300} />
         <Shade rotation={3} active={isCardHovered} duration={150} shade={200} />
-        <Shade rotation={2} active={isCardHovered} duration={100} shade={100} />
-        <div className="mx-2 z-20 md:mx-60 shadow-lg bg-white rounded-lg rota flex flex-col md:flex-row absolute">
-          <div className="px-2 md:w-full pt-2 bg-gray-200 rounded-t-lg md:rounded-l-lg md:rounded-t-none">
-            <img src={"/potrait.png"} className="w-full object-contain h-32 md:h-auto mt-auto" />
+        <Shade rotation={2} active={isCardHovered} duration={100} shade={100} /> */}
+        <div className="max-w-2xl mx-auto shadow-lg bg-white rounded-lg rota flex flex-col md:flex-row">
+          <div className="px-2 pt-2 bg-gray-200 rounded-t-lg md:rounded-l-lg md:rounded-t-none max-w-lg">
+            <img src={"/potrait.png"} className="max-w-96 max-h-80 object-contain h-32 md:h-auto mt-auto max-w-lg" />
           </div>
           <div className="py-4 px-4 md:pt-10 md:pl-4 md:pr-9">
             <h1 className="text-3xl mb-2 font-semibold">Hi, I'm<span className="bg-purple-700 px-1 mx-1 text-white">Aan</span>Fadhil</h1>
@@ -51,7 +51,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
       {/* <section className="mx-4 md:mx-60 text-center mt-4 md:mt-16 text-gray-500">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar nisl eget mauris suscipit, eu cursus ligula fringilla. Morbi feugiat commodo tortor at vestibulum. Aenean tempor nec mi a bibendum

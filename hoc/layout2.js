@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
                 </nav>
             </header>
 
-            <main className="pb-12">
+            <main className="pb-12 w-screen">
                 {children}
             </main>
 

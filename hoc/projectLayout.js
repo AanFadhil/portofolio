@@ -16,7 +16,7 @@ const Layout = ({ children, title }) => {
                 {children}
             </section>
             <section className={["py-4 text-gray-600", padding].join(' ')}>
-                <div className="flex flex-row bg-white px-4 py-4 rounded-lg shadow-md">
+                <div className="mx-auto flex flex-row bg-white px-4 py-4 rounded-lg shadow-md max-w-xl">
                     <div className="rounded-full h-16 w-h-16 md:h-24 md:w-24 bg-gray-200">
                         <img src="/potrait.png" className="rounded-full h-16 w-h-16 md:h-24 md:w-24 object-contain object-bottom" />
                     </div>
