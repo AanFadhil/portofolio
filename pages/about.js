@@ -18,7 +18,7 @@ const About = ({ }) => {
         <Layout>
             <ProjectLayout title="About">
                 <Sub level={3}>Exprerience</Sub>
-                    <P>I am a back-end specialist full-stack developer, currently based on Indonesia. able to learn the business. Worked in almost every stage of the software development cycle from requirement analysis to maintaining live product. I've dealt with many tech stack and integration requirement</P>
+                    <P>I am a back-end specialist full-stack developer, currently located in Indonesia. able to learn the business. Worked in almost every stage of the software development cycle from requirement analysis to maintaining live product. I've dealt with many tech stack and integration requirement</P>
                     <P>Experienced in designing the code base to be efficient and flexible for the use case and surounding environment</P>
                     <P>Passionate to do the research needed for the project</P>
                     

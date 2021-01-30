@@ -39,12 +39,12 @@ const Home = () => {
         <Shade rotation={4} active={isCardHovered} duration={200} shade={300} />
         <Shade rotation={3} active={isCardHovered} duration={150} shade={200} />
         <Shade rotation={2} active={isCardHovered} duration={100} shade={100} /> */}
-        <div className="max-w-2xl mx-auto shadow-lg bg-white rounded-lg rota flex flex-col md:flex-row">
-          <div className="px-2 pt-2 bg-gray-200 rounded-t-lg md:rounded-l-lg md:rounded-t-none max-w-lg">
-            <img src={"/potrait.png"} className="max-w-96 max-h-80 object-contain h-32 md:h-auto mt-auto max-w-lg" />
+        <div className="max-w-4xl mx-auto bg-gray-50 shadow-lg flex flex-col md:flex-row rounded-full">
+          <div className="px-2 pt-2 bg-gray-200 rounded-full max-w-lg shadow-md">
+            <img src={"/potrait.png"} className="max-w-96 max-h-80 rounded-full object-contain h-32 md:h-auto mt-auto max-w-lg" />
           </div>
-          <div className="py-4 px-4 md:pt-10 md:pl-4 md:pr-9">
-            <h1 className="text-3xl mb-2 font-semibold">Hi, I'm<span className="bg-purple-700 px-1 mx-1 text-white rounded-sm">Aan</span>Fadhil</h1>
+          <div className="py-4 px-4 my-auto md:pl-16 md:pr-9 rounded-lg">
+            <h1 className="text-3xl mb-2 font-semibold">Hi, I'm<span className="bg-purple-700 px-1 mx-1 text-white rounded">Aan</span>Fadhil</h1>
             <p>a back-end specialist full-stack software engineer based in Indonesia. I've been working on various types of software development jobs for {duration} years, from an enterprise scale solutions to a small business spreadsheet automation.</p>
             <div className="bg-purple-700 mb-4 w-44 text-center text-white mt-6 py-2 font-semibold hover:bg-purple-800 transition shadow-md hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 ease-out duration-300 rounded-md">
               <a href="https://www.upwork.com/freelancers/~0180f6fc8fef16432d">Hire me on Upwork</a>
