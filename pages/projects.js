@@ -11,14 +11,17 @@ const Projets = () => {
       <Head>
         <title>Projects - Aan Fadhil</title>
       </Head>
-      <section className="grid grid-cols-1 md:grid-cols-3 px-4 md:px-16 gap-x-6 gap-y-2 md:gap-y-6">
+      <section className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 px-4 md:px-16 gap-x-6 gap-y-2 md:gap-y-6">
         {
           projects.map(({ id, desc, link, name, subtitle, stack }) => (
             <div className="p-2" key={id}>
               <Link href={link}>
                 <a>
-                  <Card className="shadow-lg transition duration-300 transform hover:-translate-y-1 hover:scale-105 ease-out hover:shadow-xl cursor-pointer">
-                    <img src={"https://picsum.photos/300?random=" + id} className="object-cover w-full h-52 md:h-60 rounded-t-md object-center" />
+                  <Card className="group shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:scale-105 ease-out hover:shadow-xl cursor-pointer">
+                    <div className="overflow-hidden">
+                      <img src={"https://picsum.photos/300?random=" + id}
+                        className="object-cover w-full h-52 md:h-60 rounded-t-md object-center transform scale-110 group-hover:scale-100 transition duration-300 -translate-y-1 group-hover:translate-y-0 ease-out" />
+                    </div>
                     <div className="px-4 py-2">
                       <h2 className="font-bold text-lg">{name}</h2>
                       <h3 className="text-gray-600">{subtitle}</h3>

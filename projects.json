@@ -1,100 +1,115 @@
 [
     {
-        "id":1,
-        "name": "Project Name",
+        "id": 1,
+        "name": "RFID Reader Absensi",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
-        "subtitle": "Project Location, 2015-2020",
+        "subtitle": "Yogyakarta Indonesia, 2015-2016",
         "thumbnail": "##",
-        "link": "/project/sample",
+        "link": "/project/absensi",
         "stack": [
-            "reactJs",
-            "nodeJs",
-            "expressJs",
-            ".net core"
+            ".net frameworks",
+            "WinForm",
+            "HID Omnikey RFID Reader",
+            "RestSharp"
         ]
     },
     {
-        "id":2,
-        "name": "Project Name",
+        "id": 2,
+        "name": "SIMA Pertamina",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
-        "subtitle": "Project Location, 2015-2020",
+        "subtitle": "Jakarta Indonesia, 2017-2018",
         "thumbnail": "##",
-        "link": "/project/sample",
+        "link": "/project/sima",
         "stack": [
-            "reactJs",
-            "nodeJs",
-            "expressJs",
-            ".net core"
+            "Asp .Net WebForm",
+            "jQuery",
+            "Gmaps API",
+            "AdminLTE",
+            "Bootstrap",
+            "Sql Server",
+            "T-SQL"
         ]
     },
     {
-        "id":3,
-        "name": "Project Name",
+        "id": 3,
+        "name": "Brightgas Mobile API & CMS",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
-        "subtitle": "Project Location, 2015-2020",
+        "subtitle": "Jakarta Indonesia, 2018-2019",
         "thumbnail": "##",
-        "link": "/project/sample",
+        "link": "/project/brightgas",
         "stack": [
-            "reactJs",
-            "nodeJs",
-            "expressJs",
-            ".net core"
+            "Asp MVC",
+            "Asp Web API",
+            "Entity Framework",
+            "Hangfire",
+            "Azure Web Service",
+            "Azure SQL"
         ]
     },
     {
-        "id":4,
-        "name": "Project Name",
+        "id": 4,
+        "name": "SPOP+",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
-        "subtitle": "Project Location, 2015-2020",
+        "subtitle": "Jakarta Indonesia, 2019-2020",
         "thumbnail": "##",
-        "link": "/project/sample",
+        "link": "/project/spop",
         "stack": [
-            "reactJs",
-            "nodeJs",
-            "expressJs",
-            ".net core"
+            "Asp Mvc",
+            "EF",
+            "PostgresSql",
+            "Hangfire",
+            "ActiveMQ",
+            "jQuery",
+            "IIS"
         ]
     },
     {
-        "id":5,
-        "name": "Project Name",
+        "id": 5,
+        "name": "Teratura",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
-        "subtitle": "Project Location, 2015-2020",
+        "subtitle": "Yogyakarta Indonesia, 2019-2021",
         "thumbnail": "##",
-        "link": "/project/sample",
+        "link": "/project/teratura",
         "stack": [
-            "reactJs",
-            "nodeJs",
-            "expressJs",
-            ".net core"
+            "ExpressJs",
+            "NodeJs",
+            "MongoDB",
+            "React",
+            "Redux",
+            "DraftJs",
+            "Redis",
+            "Kue",
+            "Strapi",
+            "Docker",
+            "DigitalOcean"
         ]
     },
     {
-        "id":6,
-        "name": "Project Name",
+        "id": 6,
+        "name": "Wordpress Article Spinner",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
-        "subtitle": "Project Location, 2015-2020",
+        "subtitle": "Yogyakarta Indonesia, 2020",
         "thumbnail": "##",
-        "link": "/project/sample",
+        "link": "/project/spinner",
         "stack": [
-            "reactJs",
-            "nodeJs",
-            "expressJs",
-            ".net core"
+            "NodeJs",
+            "Redis",
+            "Bull",
+            "Wordpress"
         ]
     },
     {
-        "id":7,
-        "name": "Project Name",
+        "id": 7,
+        "name": "Portofolio",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
-        "subtitle": "Project Location, 2015-2020",
+        "subtitle": "Indonesia, 2021",
         "thumbnail": "##",
-        "link": "/project/sample",
+        "link": "/project/portofolio",
         "stack": [
-            "reactJs",
-            "nodeJs",
-            "expressJs",
-            ".net core"
+            "NextJs",
+            "Vercel",
+            "Tailwind",
+            "Kwes Form"
         ]
     }
 ]

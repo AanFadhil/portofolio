@@ -44,7 +44,7 @@ const Home = () => {
             <img src={"/potrait.png"} className="max-w-96 max-h-80 object-contain h-32 md:h-auto mt-auto max-w-lg" />
           </div>
           <div className="py-4 px-4 md:pt-10 md:pl-4 md:pr-9">
-            <h1 className="text-3xl mb-2 font-semibold">Hi, I'm<span className="bg-purple-700 px-1 mx-1 text-white">Aan</span>Fadhil</h1>
+            <h1 className="text-3xl mb-2 font-semibold">Hi, I'm<span className="bg-purple-700 px-1 mx-1 text-white rounded-sm">Aan</span>Fadhil</h1>
             <p>a back-end specialist full-stack software engineer based in Indonesia. I've been working on various types of software development jobs for {duration} years, from an enterprise scale solutions to a small business spreadsheet automation.</p>
             <div className="bg-purple-700 mb-4 w-44 text-center text-white mt-6 py-2 font-semibold hover:bg-purple-800 transition shadow-md hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 ease-out duration-300 rounded-md">
               <a href="https://www.upwork.com/freelancers/~0180f6fc8fef16432d">Hire me on Upwork</a>

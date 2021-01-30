@@ -9,7 +9,11 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      transform: ['group-hover'],
+      scale: ['group-hover'],
+      translate: ['group-hover']
+    }
   },
   plugins: [],
 }

@@ -18,16 +18,12 @@ const About = ({ }) => {
         <Layout>
             <ProjectLayout title="About">
                 <Sub level={3}>Exprerience</Sub>
-                
-                    <P>Will and Able to learn the business</P>
-                    <P>Worked in almost every stage of the software development cycle</P>
-                    <P>Dealt with many tech stack and integration requirement</P>
-                    <P>Experienced in building the code base to be flexible to the use case and the software environment</P>
+                    <P>I am a back-end specialist full-stack developer, currently based on Indonesia. able to learn the business. Worked in almost every stage of the software development cycle from requirement analysis to maintaining live product. I've dealt with many tech stack and integration requirement</P>
+                    <P>Experienced in designing the code base to be efficient and flexible for the use case and surounding environment</P>
                     <P>Passionate to do the research needed for the project</P>
-                    <P>I believe that process is as important as result. because in software development we often needed to revisit our previous work to optimize, debug or even enhance. if the software we build ignored the best practice and readability on the process of development, it will be an obstacle for the next development phase</P>
                     
                 <Sub>My Stacks</Sub>
-                <div className="grid grid-cols-2">
+                <div className="grid grid-cols-2 mb-6">
                     <div>
                         <Sub level={3}>Backend</Sub>
                         <Sub level={4}>Language</Sub>
