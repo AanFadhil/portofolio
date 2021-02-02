@@ -9,7 +9,7 @@ const Layout = ({ children, title }) => {
             <Head>
                 <title>{title} - Aan Fadhil</title>
             </Head>
-            <section className={["mt-20", padding].join(' ')}>
+            <section className={["mt-14 md:mt-20", padding].join(' ')}>
                 <div className={contentWrapperClass}><h1 className="font-semibold text-gray-800 text-3xl mb-7">{title}</h1></div>
             </section>
             <section className={["bg-white py-4 text-gray-500 shadow-md", padding].join(' ')}>

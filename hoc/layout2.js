@@ -12,7 +12,7 @@ const menu = [
 const Layout = ({ children }) => {
     const router = useRouter()
     return (
-        <div className="bg-indigo-100 min-h-screen relative">
+        <div className="bg-indigo-200 min-h-screen relative">
             <Head>
                 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
                 <link rel="icon" href="/favicon.ico" />
