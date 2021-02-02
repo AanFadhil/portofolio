@@ -2,21 +2,23 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 const Layout = ({ children, title }) => {
-    const padding = "px-4 md:px-80"
+    const padding = "px-4"
+    const contentWrapperClass = "max-w-3xl mx-auto"
     return (
         <div className="">
             <Head>
                 <title>{title} - Aan Fadhil</title>
             </Head>
             <section className={["mt-20", padding].join(' ')}>
-                <h1 className="font-semibold text-gray-800 text-3xl mb-7">{title}</h1>
+                <div className={contentWrapperClass}><h1 className="font-semibold text-gray-800 text-3xl mb-7">{title}</h1></div>
             </section>
-            <img />
             <section className={["bg-white py-4 text-gray-500 shadow-md", padding].join(' ')}>
-                {children}
+                <div className={contentWrapperClass}>
+                    {children}
+                </div>
             </section>
             <section className={["py-4 text-gray-600", padding].join(' ')}>
-                <div className="mx-auto flex flex-row bg-white px-4 py-4 rounded-lg shadow-md max-w-xl">
+                <div className="mx-auto flex flex-row bg-white px-4 py-4 rounded-lg shadow-md max-w-md">
                     <div className="rounded-full h-16 w-h-16 md:h-24 md:w-24 bg-gray-200">
                         <img src="/potrait.png" className="rounded-full h-16 w-h-16 md:h-24 md:w-24 object-contain object-bottom" />
                     </div>

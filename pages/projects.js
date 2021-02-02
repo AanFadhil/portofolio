@@ -11,7 +11,7 @@ const Projets = () => {
       <Head>
         <title>Projects - Aan Fadhil</title>
       </Head>
-      <section className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 px-4 md:px-16 gap-x-6 gap-y-2 md:gap-y-6">
+      <section className="grid grid-cols-1 md:grid-cols-4 px-4 md:px-16 gap-x-6 gap-y-2 md:gap-y-6">
         {
           projects.map(({ id, desc, link, name, subtitle, stack }) => (
             <div className="p-2" key={id}>

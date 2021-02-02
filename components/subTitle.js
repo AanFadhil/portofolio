@@ -13,10 +13,10 @@ const Sub = ({ children, level = 2, className = "" }) => {
             classes = "font-bold text-gray-700 text-xl mb-2"
             break;
         case 4:
-            classes = "font-bold text-gray-700 text-lg mb-2"
+            classes = "font-bold text-gray-700 text-lg mb-0"
             break;
         case 5:
-            classes = "font-bold text-gray-600 mb-2"
+            classes = "font-bold text-gray-600 mb-0"
             break;
     }
 

@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "RFID Reader Absensi",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
+        "desc": "Reengineering of attendance system using RFID card reader for students in Amikom University",
         "subtitle": "Yogyakarta Indonesia, 2015-2016",
         "thumbnail": "##",
         "link": "/project/absensi",
@@ -16,7 +16,7 @@
     {
         "id": 2,
         "name": "SIMA Pertamina",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
+        "desc": "Land and building management system of Pertamina. Indonesian state-owned oil and natural gas corporation",
         "subtitle": "Jakarta Indonesia, 2017-2018",
         "thumbnail": "##",
         "link": "/project/sima",
@@ -33,8 +33,8 @@
     {
         "id": 3,
         "name": "Brightgas Mobile API & CMS",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
-        "subtitle": "Jakarta Indonesia, 2018-2019",
+        "desc": "Mobile app for Home propane delivery services by Pertamina, Indonesian state-owned oil and natural gas corporation",
+        "subtitle": "Jakarta Indonesia, 2018",
         "thumbnail": "##",
         "link": "/project/brightgas",
         "stack": [
@@ -49,8 +49,8 @@
     {
         "id": 4,
         "name": "SPOP+",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
-        "subtitle": "Jakarta Indonesia, 2019-2020",
+        "desc": "A system to manage, accumulate and process data for back office daily operation at Indonesia Stock Exchange",
+        "subtitle": "Jakarta Indonesia, 2018-2020",
         "thumbnail": "##",
         "link": "/project/spop",
         "stack": [
@@ -66,8 +66,8 @@
     {
         "id": 5,
         "name": "Teratura",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
-        "subtitle": "Yogyakarta Indonesia, 2019-2021",
+        "desc": "Kanban Board tools to manage projects between customer, customer service and production team (internal team and freelancer) with live notification and rating system",
+        "subtitle": "Yogyakarta Indonesia, 2020-2021",
         "thumbnail": "##",
         "link": "/project/teratura",
         "stack": [
@@ -87,7 +87,7 @@
     {
         "id": 6,
         "name": "Wordpress Article Spinner",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
+        "desc": "Console app to build content, related search, portfolio image gallery and internal links for SEO process of Hitamedia, a graphic design service company",
         "subtitle": "Yogyakarta Indonesia, 2020",
         "thumbnail": "##",
         "link": "/project/spinner",
@@ -101,7 +101,7 @@
     {
         "id": 7,
         "name": "Portofolio",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at urna sed arcu scelerisque aliquet a vitae orci. Integer ac.",
+        "desc": "My personal Portfolio web page",
         "subtitle": "Indonesia, 2021",
         "thumbnail": "##",
         "link": "/project/portofolio",
