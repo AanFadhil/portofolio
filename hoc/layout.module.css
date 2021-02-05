@@ -54,3 +54,27 @@
     font-size: small;
     text-align: center;
 }
+
+.bg {
+    background-color: #ffb500 ;
+}
+
+.green{
+    fill: #1bc461;
+}
+
+.svg{
+    width: calc(100vw + 10rem);
+    left: -5rem;
+}
+
+.svg1{
+}
+
+.svg2{
+}
+
+.svg3{
+ 
+}
+

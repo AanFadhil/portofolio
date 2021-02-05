@@ -16,7 +16,7 @@ const Contact = () => {
                 <title>Contact - Aan Fadhil</title>
             </Head>
             <section className="px-4 md:px-0">
-                <div className="w-full md:w-1/3 mx-auto p-4 shadow-lg bg-white rounded-lg flex flex-col">
+                <div className="w-full md:w-1/3 mx-auto p-4 shadow-lg bg-white rounded-lg flex flex-col z-30">
                     <h1 className="font-bold text-lg mb-4">Contact Me</h1>
                     <form className="flex flex-col w-full kwes-form" action={process.env.NEXT_PUBLIC_KWES_ACTION_URL}>
                         <TextBox required max={30} label="What is your name ?" type="text" name="name" />
