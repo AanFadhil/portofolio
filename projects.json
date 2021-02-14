@@ -4,7 +4,7 @@
         "name": "RFID Attendance System",
         "desc": "Reengineering of attendance system using RFID card reader for students in Amikom University",
         "subtitle": "Yogyakarta Indonesia, 2015-2016",
-        "thumbnail": "##",
+        "thumbnail": "/porto/attendance.png",
         "link": "/project/attendance",
         "stack": [
             ".net frameworks",
