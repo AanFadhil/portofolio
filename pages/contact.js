@@ -13,7 +13,7 @@ const Contact = () => {
     return (
         <Layout>
             <Head>
-                <title>Contact - Aan Fadhil</title>
+                <title>Contact - Aan Fadhi</title>
             </Head>
             <section className="px-4 md:px-0">
                 <div className="w-full md:w-1/3 mx-auto p-4 shadow-lg bg-white rounded-lg flex flex-col z-30">

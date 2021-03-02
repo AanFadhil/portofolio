@@ -77,6 +77,28 @@ const About = ({ }) => {
                         </Ul>
                     </div>
                 </div>
+
+                <Sub level={2}>Work Experience</Sub>
+                <hr />
+                <br />
+                <div className="md:ml-4">
+                    <Sub level={3}>Technical Lead</Sub>
+                    <P className="mb-1 font-semibold">Hitamedia (2020 - Present)</P>
+                    <P>Responsible for Building website and internal project management systems using NodeJs and ReactJs, providing a google sheet solution for finance and marketing data</P>
+
+                    <Sub level={3}>Technical Lead</Sub>
+                    <P className="mb-1 font-semibold">Suitmedia (2018 - 2020)</P>
+                    <P>Responsible for leading a team of developers and developing web application on .Net environment. Writing a code base and doing the research needed for a project</P>
+
+                    <Sub level={3}>Fullstack .Net Developer</Sub>
+                    <P className="mb-1 font-semibold">PT. Kairos Utama Indonesia (2016 - 2018)</P>
+                    <P>Responsible for developing web application using asp.net webform, MVC, Web API and Sql Server. including enhancing and bug fixing existing application</P>
+
+
+                    <Sub level={3}>Internship .Net Developer</Sub>
+                    <P className="mb-1 font-semibold">AMIKOM Innovation Center (2015 - 2016)</P>
+                    <P>Developing a RFID attendance system using .Net WinForm and Web API</P>
+                </div>
             </ProjectLayout>
         </Layout>
     )
