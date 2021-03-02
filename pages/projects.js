@@ -15,9 +15,9 @@ const Projets = () => {
         {
           projects.map(({ id, desc, link, name, subtitle, stack, thumbnail }) => (
             <div className="p-2" key={id}>
-              <Link href={link}>
+              {/* <Link href={link}> */}
                 <a>
-                  <Card className="group shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:scale-105 ease-out hover:shadow-xl cursor-pointer">
+                  <Card className="group shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:scale-105 ease-out hover:shadow-xl">
                     <div className="overflow-hidden">
                       <img src={thumbnail ? thumbnail : ("https://picsum.photos/300?random=" + id)}
                         className="object-cover w-full h-52 md:h-60 rounded-t-md object-center transform scale-110 group-hover:scale-100 transition duration-300 -translate-y-1 group-hover:translate-y-0 ease-out" />
@@ -32,7 +32,7 @@ const Projets = () => {
                     </div>
                   </Card>
                 </a>
-              </Link>
+              {/* </Link> */}
             </div>
           ))
 

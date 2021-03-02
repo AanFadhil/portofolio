@@ -18,7 +18,7 @@
         "name": "SIMA Pertamina",
         "desc": "Land and building management system of Pertamina. Indonesian state-owned oil and natural gas corporation",
         "subtitle": "Jakarta Indonesia, 2017-2018",
-        "thumbnail": "##",
+        "thumbnail": "/porto/SIMA.jpg",
         "link": "/project/sima",
         "stack": [
             "Asp .Net WebForm",
@@ -35,7 +35,7 @@
         "name": "Brightgas Mobile API & CMS",
         "desc": "Mobile app for Home propane delivery services by Pertamina, Indonesian state-owned oil and natural gas corporation",
         "subtitle": "Jakarta Indonesia, 2018",
-        "thumbnail": "##",
+        "thumbnail": "/porto/BHS.jpg",
         "link": "/project/brightgas",
         "stack": [
             "Asp MVC",
@@ -51,7 +51,7 @@
         "name": "SPOP+",
         "desc": "A system to manage, accumulate and process data for back office daily operation at Indonesia Stock Exchange",
         "subtitle": "Jakarta Indonesia, 2018-2020",
-        "thumbnail": "##",
+        "thumbnail": "/porto/SPOP.jpg",
         "link": "/project/spop",
         "stack": [
             "Asp Mvc",
@@ -68,7 +68,7 @@
         "name": "Teratura",
         "desc": "Kanban Board tools to manage projects between customer, customer service and production team (internal team and freelancer) with live notification and rating system",
         "subtitle": "Yogyakarta Indonesia, 2020-2021",
-        "thumbnail": "##",
+        "thumbnail": "/porto/Teratura.jpg",
         "link": "/project/teratura",
         "stack": [
             "ExpressJs",
@@ -89,7 +89,7 @@
         "name": "Wordpress Article Spinner",
         "desc": "Console app to build content, related search, portfolio image gallery and internal links for SEO process of Hitamedia, a graphic design service company",
         "subtitle": "Yogyakarta Indonesia, 2020",
-        "thumbnail": "##",
+        "thumbnail": "/porto/Spinner.jpg",
         "link": "/project/spinner",
         "stack": [
             "NodeJs",
@@ -103,7 +103,7 @@
         "name": "Portofolio",
         "desc": "My personal Portfolio web page",
         "subtitle": "Indonesia, 2021",
-        "thumbnail": "##",
+        "thumbnail": "/porto/Portfolio.jpg",
         "link": "/project/portofolio",
         "stack": [
             "NextJs",
