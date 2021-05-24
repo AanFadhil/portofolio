@@ -82,8 +82,12 @@ const About = ({ }) => {
                 <hr />
                 <br />
                 <div className="md:ml-4">
+                    <Sub level={3}>NodeJs Developer</Sub>
+                    <P className="mb-1 font-semibold">Scopic Software (2021 - Present)</P>
+                    <P>Responsible for Building NodeJs library and application, create task breakdown and doing the research needed for a task</P>
+
                     <Sub level={3}>Technical Lead</Sub>
-                    <P className="mb-1 font-semibold">Hitamedia (2020 - Present)</P>
+                    <P className="mb-1 font-semibold">Hitamedia (2020 - 2021)</P>
                     <P>Responsible for Building website and internal project management systems using NodeJs and ReactJs, providing a google sheet solution for finance and marketing data</P>
 
                     <Sub level={3}>Technical Lead</Sub>

@@ -1,4 +1,4 @@
-import {useEffect} from 'react';
+import { useEffect } from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
 import TextBox from '../components/forms/textBox';
@@ -9,7 +9,7 @@ import kwesforms from 'kwesforms';
 const Contact = () => {
     useEffect(() => {
         kwesforms.init()
-    },[])
+    }, [])
     return (
         <Layout>
             <Head>
@@ -24,6 +24,11 @@ const Contact = () => {
                         <TextBox required max={100} label="How can I Help You ?" type="text" name="bussiness" />
                         <button type="submit" className="bg-purple-700 text-center text-white mt-2 py-2 md:w-1/3 font-semibold hover:bg-purple-800 transition hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 ease-out duration-300 rounded-md">Send</button>
                     </form>
+                    <hr className="mt-6"></hr>
+                    <div className="flex flex-col mt-3 text-indigo-800 align-middle text-center">
+                        <a href="https://www.linkedin.com/in/aanfadhil" target="_blank"><i className="fab fa-linkedin mr-2"></i>Linkedin</a>
+                        <a href="https://github.com/AanFadhil" target="_blank"><i className="fab fa-github mr-2"></i>Github</a>
+                    </div>
                 </div>
             </section>
         </Layout>
@@ -31,4 +36,4 @@ const Contact = () => {
 }
 
 
-export default Contact 
+export default Contact
